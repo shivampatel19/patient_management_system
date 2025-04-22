@@ -80,5 +80,4 @@ public class Patient {
     public void setRegisteredDate(@NotNull LocalDate registeredDate) {
         this.registeredDate = registeredDate;
     }
-
 }
