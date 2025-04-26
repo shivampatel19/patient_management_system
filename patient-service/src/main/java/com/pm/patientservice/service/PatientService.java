@@ -1,12 +1,12 @@
-package org.example.patientservice.service;
+package com.pm.patientservice.service;
 
-import org.example.patientservice.dto.PatientRequestDTO;
-import org.example.patientservice.dto.PatientResponseDTO;
-import org.example.patientservice.exception.EmailAlreadyExistsException;
-import org.example.patientservice.exception.PatientNotFoundException;
-import org.example.patientservice.mapper.PatientMapper;
-import org.example.patientservice.model.Patient;
-import org.example.patientservice.repository.PatientRepository;
+import com.pm.patientservice.dto.PatientRequestDTO;
+import com.pm.patientservice.dto.PatientResponseDTO;
+import com.pm.patientservice.exception.EmailAlreadyExistsException;
+import com.pm.patientservice.exception.PatientNotFoundException;
+import com.pm.patientservice.mapper.PatientMapper;
+import com.pm.patientservice.model.Patient;
+import com.pm.patientservice.repository.PatientRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;

@@ -1,13 +1,12 @@
-package org.example.patientservice.controller;
+package com.pm.patientservice.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import jakarta.validation.Valid;
 import jakarta.validation.groups.Default;
-import org.example.patientservice.dto.PatientRequestDTO;
-import org.example.patientservice.dto.PatientResponseDTO;
-import org.example.patientservice.dto.validators.CreatePatientValidationGroup;
-import org.example.patientservice.service.PatientService;
+import com.pm.patientservice.dto.PatientRequestDTO;
+import com.pm.patientservice.dto.PatientResponseDTO;
+import com.pm.patientservice.dto.validators.CreatePatientValidationGroup;
+import com.pm.patientservice.service.PatientService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
