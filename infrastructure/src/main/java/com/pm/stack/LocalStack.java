@@ -68,7 +68,7 @@ public class LocalStack extends Stack {
                         "auth-service",
                         List.of(4005),
                         authServiceDb,
-                        Map.of("JWT_SECRET", "Y2hhVEc3aHJnb0hYTzMyZ2ZqVkpiZ1RkZG93YWxrUkM="));
+                        Map.of("JWT_SECRET", "VEnfROsacIVNsIVyONdsuovudfvblkdjfvbkbkvjabsdkfjvbtEyVyN"));
 
         authService.getNode().addDependency(authDbHealthCheck);
         authService.getNode().addDependency(authServiceDb);
@@ -143,7 +143,7 @@ public class LocalStack extends Stack {
 
     private CfnCluster createMskCluster(){
         return CfnCluster.Builder.create(this, "MskCluster")
-                .clusterName("kafa-cluster")
+                .clusterName("kakfa-cluster")
                 .kafkaVersion("2.8.0")
                 .numberOfBrokerNodes(1)
                 .brokerNodeGroupInfo(CfnCluster.BrokerNodeGroupInfoProperty.builder()
