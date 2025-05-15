@@ -1,0 +1,27 @@
+### Creates a new patient entity
+#POST http://localhost:37919/billing/createAccount
+#POST http://localhost:46605/billing/createAccount
+#Content-Type: application/json
+#
+#{
+#  "name": "John Doe with Billing Account with kafka producer and consumer",
+#  "email": "johndoe3_with_billing_account_with_kafka_producer_and_consumer@gmail.com",
+#  "address": "123 main street",
+#  "dateOfBirth": "1995-09-09",
+#  "registeredDate": "2024-11-28"
+#}
+
+
+#POST http://billing-service-2/billing/callBillingService2
+POST http://localhost:41621/billing/callBillingService2
+Content-Type: application/json
+
+{
+"name": "John Doe with Billing Account with kafka producer and consumer",
+"email": "johndoe3_with_billing_account_with_kafka_producer_and_consumer@gmail.com",
+"address": "123 main street",
+"dateOfBirth": "1995-09-09",
+"registeredDate": "2024-11-28"
+}
+
+###

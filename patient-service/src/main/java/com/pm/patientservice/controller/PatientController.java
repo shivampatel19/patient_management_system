@@ -55,4 +55,12 @@ public class PatientController {
         patientService.deletePatient(id);
         return ResponseEntity.noContent().build();
     }
+
+    @GetMapping("/{id}")
+    @Operation(summary = "Get Patient by ID")
+    public ResponseEntity<PatientResponseDTO> getPatientById(@PathVariable UUID id) {
+        PatientResponseDTO patient = patientService.getPatientById(id);
+        return ResponseEntity.ok(patient);
+    }
+
 }
