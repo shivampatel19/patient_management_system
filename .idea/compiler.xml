@@ -10,6 +10,7 @@
         <module name="discovery-server" />
         <module name="infrastructure" />
         <module name="billing-service (1)" />
+        <module name="billing-service (2)" />
         <module name="analytics-service" />
         <module name="api-gateway" />
         <module name="patient-service" />
@@ -24,6 +25,7 @@
       <module name="auth-service" options="-parameters" />
       <module name="billing-service" options="-parameters" />
       <module name="billing-service (1)" options="-parameters" />
+      <module name="billing-service (2)" options="-parameters" />
       <module name="discovery-server" options="-parameters" />
       <module name="patient-service" options="-parameters" />
     </option>
